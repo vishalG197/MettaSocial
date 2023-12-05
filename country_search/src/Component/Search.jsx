@@ -1,4 +1,4 @@
-// Search.js
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Cardlist from './Cardlist';
@@ -33,6 +33,7 @@ const Search = () => {
       <input
         type="text"
         placeholder="Enter currency code"
+        class="search-input"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
