@@ -56,4 +56,5 @@ n
 
 ## LANDING PAGE
 
-![Alt text](image.png)
+![image](https://github.com/vishalG197/MettaSocial/assets/119415070/cfc11520-0588-4bc4-9ff4-79e980cf0a3c)
+
