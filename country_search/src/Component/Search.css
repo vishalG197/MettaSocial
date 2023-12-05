@@ -1,0 +1,9 @@
+/* Search.css */
+.search-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ /* Add more styles based on your design preferences */
+ 

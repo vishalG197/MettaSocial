@@ -1,11 +1,17 @@
-import React from 'react'
+// CardList.js
+import React from 'react';
+import Card from './Card';
+import './Cardlist.css';
 
-const Cardlist = () => {
+const CardList = ({ countries }) => {
+  console.log(countries)
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <ul className="card-list">
+      {countries.map((country) => (
+        <Card key={country.cca2} name={country.name.common} capital={country.capital} countryCode={country.cca2} />
+      ))}
+    </ul>
+  );
+};
 
-export default Cardlist
+export default CardList;
