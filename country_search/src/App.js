@@ -6,7 +6,7 @@ import Search from './Component/Search';
 function App() {
   return (
     <div className="App">
-      <h1>Currency Search App</h1>
+      <h1 style = {{color:"blue"}}>Currency Search App</h1>
       <Search />
     </div>
   );
